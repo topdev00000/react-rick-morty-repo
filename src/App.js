@@ -33,12 +33,12 @@ export default function App() {
 		setResultCount(count);
 	}
 	// manage the query based on the page clicked
-	const [pageQuery, handlePageQuery] = usePageQuery();
-	// check which page the user is on
-	const location = useLocation();
+	// const [pageQuery, handlePageQuery] = usePageQuery();
+	// // check which page the user is on
+	// const location = useLocation();
 	
-	const windowWidth = useWindowWidth();
-	const refContainer = useRef();
+	// const windowWidth = useWindowWidth();
+	// const refContainer = useRef();
 
 	return (
 		<ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
